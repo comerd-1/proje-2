@@ -1,0 +1,105 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #f3f8fe;
+    width: 700px;
+    margin-left: 100px;
+    font-family: "Poppins", sans-serif;
+}
+
+.font-merri {
+    font-family: "Merriweather", serif;
+}
+
+font-popins {
+    font-family: "Poppins", sans-serif;
+}
+
+.card{
+    width: 562px;
+    padding: 50px;
+    background-color: #ffffff;
+    margin: 50px auto;
+    border-radius: 25px;
+    
+}
+
+.clearfix{
+    clear: both;
+}
+
+.card-left {
+    float: left;
+}
+
+
+
+img{
+    width: 114px;
+    height: 114px;
+    border: 11px solid #E6EFFA;
+    border-radius: 50%;
+
+}
+
+.card-left figure img{
+    object-fit: cover;
+}
+
+.card-right{
+    float: left;
+    width: 332px;
+    margin-left: 16px;
+    padding-top: 24px;
+   
+}
+
+.card-right h1{
+    font-size: 26px;
+    color: #1C2B62;
+    
+
+}
+
+.card-right > p {
+  font-size: 16px;
+}
+
+.card-right .rating{
+    margin: 28px 0;
+    font-size: 15px;
+}
+
+.card-right .rating p:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.card-right .text {
+    font-size: 18px;
+    margin-bottom: 28px;
+    line-height: 27px;
+}
+
+
+.card-right .foot button{
+   background-color: transparent;
+   border: 2px solid #C4CADF;
+   height: 44px;
+   padding: 5px;
+   font-size: 16px;
+   border-radius: 4px;
+}
+
+ul{
+    list-style: none;
+    clear: both;
+    padding: 0;
+}
+
+ul li{
+    padding: 5px;
+}
+
